@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 const ContactDetails = () => {
   return (
     <div className=" w-11/12 mx-auto">
-      <h1 className="text-2xl font-semibold my-6">Add Products</h1>
+      <h1 className="text-2xl font-semibold my-6">Contact Details</h1>
       <div className="flex w-full gap-8">
         <div className="w-full">
           <div className="w-full">
@@ -28,7 +28,7 @@ const ContactDetails = () => {
                 id=""
               />
             </div>
-            <div className="w-1/2">
+            <div className="w-1/2 relative">
               <label className="font-semibold">Use Brand</label> <br />
               <input
                 className="border w-full text-center border-purple-200 p-3 mt-3"
@@ -37,6 +37,9 @@ const ContactDetails = () => {
                 placeholder="Apex,Bata"
                 id=""
               />
+              <div className="absolute -right-1 top-9 cursor-pointer">
+              <Icon className="text-5xl" icon="ph:plus-fill" />
+              </div>
             </div>
           </div>
           <div className="flex w-full gap-6 mt-6">
@@ -62,7 +65,7 @@ const ContactDetails = () => {
             </div>
           </div>
           <div className="flex w-full gap-6 mt-6">
-            <div className="w-1/2">
+            <div className="w-1/2 relative">
               <label className="font-semibold">Mobile Number</label> <br />
               <input
                 className="border w-full border-purple-200 p-3 mt-3"
@@ -71,6 +74,9 @@ const ContactDetails = () => {
                 placeholder="01700000000"
                 id=""
               />
+                <div className="absolute -right-1 top-9 cursor-pointer">
+              <Icon className="text-5xl" icon="ph:plus-fill" />
+              </div>
             </div>
             <div className="w-1/2">
               <label className="font-semibold">Email</label> <br />
@@ -99,7 +105,7 @@ const ContactDetails = () => {
                 id=""
               />
             </div>
-            <div className="w-1/2">
+            <div className="w-1/2 relative">
               <label className="font-semibold">Product Category</label> <br />
               <input
                 className="border w-full border-purple-200 p-3 mt-3"
@@ -108,6 +114,9 @@ const ContactDetails = () => {
                 placeholder="Shoes"
                 id=""
               />
+                <div className="absolute -right-1 top-9 cursor-pointer">
+              <Icon className="text-5xl" icon="ph:plus-fill" />
+              </div>
             </div>
           </div>
           <div className="flex w-full gap-6 mt-6">
@@ -143,7 +152,7 @@ const ContactDetails = () => {
                 id=""
               />
             </div>
-            <div className="w-1/2">
+            <div className="w-1/2 relative">
               <label className=" font-semibold">Social Media link</label> <br />
               <input
                 className="border w-full border-purple-200 p-3 mt-3"
@@ -152,6 +161,9 @@ const ContactDetails = () => {
                 placeholder="Out Side Area"
                 id=""
               />
+                <div className="absolute -right-1 top-9 cursor-pointer">
+              <Icon className="text-5xl" icon="ph:plus-fill" />
+              </div>
             </div>
           </div>
           <div className="flex w-full gap-6 mt-6"></div>
