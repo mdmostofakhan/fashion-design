@@ -6,7 +6,7 @@ import icon1 from '../../../assets/Fav icon/Rectangle 284.png'
 const ProductTable = () => {
     return (
         <div>
-            <table className='border w-full'>
+            <table className=' w-full'>
                  <thead className='border'>
                      <th className='border border-green-600 text-center py-3'>Image</th>
                      <th className='border border-green-600 text-center py-3'>Product Name</th>

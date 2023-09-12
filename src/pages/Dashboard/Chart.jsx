@@ -58,7 +58,7 @@ const Chart = () => {
   return (
 
     <div className="border border-green-600 rounded-2xl ">
-    <div className="flex justify-between mx-12 mt-4">
+    <div className="flex justify-between lg:px-4 mt-4">
     <p className="text-2xl font-semibold">Claims Over the Years</p>
     <div>
        <p className="text-[#5041BC] flex gap-2 text-xl font-semibold items-center">
@@ -68,15 +68,15 @@ const Chart = () => {
     </div>
 </div>
 <BarChart
- width={500}
+ width={1/2}
  height={300}
  data={data}
- margin={{
-   top: 20,
-   right: 30,
-   left: 20,
-   bottom: 5,
- }}
+//  margin={{
+//    top: 0,
+//    right: 0,
+//    left: 0,
+//    bottom: 5,
+//  }}
 >
  <XAxis dataKey="name"></XAxis>
  <YAxis />

@@ -4,7 +4,7 @@ import image from '../../../assets/ManNewItems/img1.png'
 const OrderTable = () => {
   return (
     <div>
-      <table className=" w-full border ">
+      <table className="  w-full ">
         <thead className="border">
           <tr>
             <th className="border border-green-600 py-3">Date</th>
@@ -34,7 +34,7 @@ const OrderTable = () => {
 
           <tr>
             <td className="border border-green-600">29 Aug 2023</td>
-            <td className="border border-green-600 w-[140px] p-3">
+            <td className="border border-green-600 w-[140px]  p-3">
               <img className="w-full" src={image} alt="" />
             </td>
             <td className="border border-green-600">Shoes</td>

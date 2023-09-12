@@ -43,8 +43,10 @@ const Dashboard = () => {
                 className="flex gap-2 p-4 text-xl font-semibold items-center"
                 to="/dashboard/products"
               >
-                <Icon icon="streamline:shopping-bag-hand-bag-1-shopping-bag-purse-goods-item-products" />
+               <div className="flex gap-4 mx-auto md:mx-0">
+               <Icon icon="streamline:shopping-bag-hand-bag-1-shopping-bag-purse-goods-item-products" />
                 <span className="hidden md:inline-block"> Products</span>
+               </div>
               </NavLink>
             </li>
             <li className=" mt-2 text-white mb-8">
@@ -52,8 +54,10 @@ const Dashboard = () => {
                 className="flex gap-2 p-4 text-xl font-semibold items-center"
                 to="/dashboard/addproducts"
               >
+                <div className="flex gap-4 mx-auto md:mx-0">
                 <Icon icon="streamline:shopping-bag-hand-bag-2-shopping-bag-purse-goods-item-products" />{" "}
                 <span className="hidden md:inline-block"> Add Products</span>
+                </div>
               </NavLink>
             </li>
             <li className="  mt-2 text-white mb-8">
@@ -61,11 +65,13 @@ const Dashboard = () => {
                 className="flex gap-2 text-xl p-4 font-semibold items-center"
                 to="/dashboard/delivery"
               >
-                <Icon icon="iconoir:delivery-truck" />
+               <div className="flex gap-4 mx-auto md:mx-0">
+               <Icon icon="iconoir:delivery-truck" />
                 <span className="hidden md:inline-block">
-                  {" "}
+                 
                   Delivery & Return
                 </span>
+               </div>
               </NavLink>
             </li>
             <li className=" mt-2 text-white mb-8">
@@ -73,8 +79,10 @@ const Dashboard = () => {
                 className="flex gap-2 p-4 text-xl font-semibold items-center"
                 to="/dashboard/contact"
               >
-                <Icon icon="ri:contacts-fill" />{" "}
+                <div className="flex gap-4 mx-auto md:mx-0">
+                <Icon icon="ri:contacts-fill" />
                 <span className="hidden md:inline-block"> Contact Details</span>
+                </div>
               </NavLink>
             </li>
             <li className=" mt-2 text-white mb-8">
@@ -82,14 +90,18 @@ const Dashboard = () => {
                 className="flex gap-2 p-4 text-xl font-semibold items-center"
                 to="/dashboard/faq"
               >
-                <Icon icon="bi:chat-right-dots-fill" />{" "}
+                  <div className="flex gap-4 mx-auto md:mx-0">
+                  <Icon icon="bi:chat-right-dots-fill" />
                 <span className="hidden md:inline-block">FAQ</span>
+                  </div>
               </NavLink>
             </li>
             <li className=" mt-2 text-white mb-8">
               <button className="flex hover:text-[#3997B1] transition-all delay-100 ease-in-out p-4 gap-2 text-xl font-semibold items-center">
-                <Icon icon="mi:log-in" />{" "}
+               <div className="flex gap-4 mx-auto md:mx-0">
+               <Icon icon="mi:log-in" />
                 <span className="hidden md:inline-block">Log Out</span>
+               </div>
               </button>
             </li>
           </ul>
