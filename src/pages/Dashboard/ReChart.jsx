@@ -59,7 +59,7 @@ const ReChart = () => {
            </div>
        </div>
        <BarChart
-        width={600}
+        width={500}
         height={300}
         data={data}
         margin={{
