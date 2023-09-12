@@ -5,7 +5,7 @@ const AddProducts = () => {
   return (
     <div className=" w-11/12 mx-auto">
       <h1 className="text-2xl font-semibold my-6">Add Products</h1>
-      <div className="flex w-full gap-8">
+      <div className="grid md:grid-cols-2  grid-cols-1 w-full gap-8">
       <div className="w-full">
           <div className="w-full">
             <label className="font-semibold">Product Name</label> <br />
@@ -98,10 +98,10 @@ const AddProducts = () => {
             />
           </div>
 
-          <div className="mt-6 relative">
+          <div className="mt-6 ">
             <label className="font-semibold ">Create Size Guide</label> <br />
             <table className="border w-full mt-2">
-              <tr className="flex">
+              <tr className="grid grid-cols-4">
               
                 <input
                   type="text"
@@ -118,20 +118,22 @@ const AddProducts = () => {
                   placeholder="Waist"
                   className="border  border-purple-200 p-3"
                 />
-                <td>
+                
                   <input
                     type="text"
                     placeholder="Waist"
                     className="border   border-purple-200  p-3"
                   />
-                  <div className="absolute right-5 top-8 cursor-pointer">
-                    <Icon className=" text-5xl" icon="ph:plus-fill" />
-                  </div>
-                </td>
+                  
+                    <Icon className="ml-auto text-5xl" icon="ph:plus-fill" />
+                
+                
               </tr>
             </table>
           </div>
         </div>
+
+
 
         {/* secon ............ */}
         <div className="w-full">
@@ -248,7 +250,7 @@ const AddProducts = () => {
             </div>
           </div>
 
-          <div className="mt-6 relative">
+          <div className="mt-6 ml-6 relative">
             <label className=" font-semibold">Sub Details</label> <br />
             <input
               className="border w-full border-purple-200 justify-between  mt-2 p-3 "
@@ -257,7 +259,7 @@ const AddProducts = () => {
               placeholder=""
               id=""
             />
-            <div className="absolute right-5 top-8 cursor-pointer">
+            <div className="absolute -right-1 top-8 ">
               <Icon className=" text-5xl" icon="ph:plus-fill" />
             </div>
           </div>
